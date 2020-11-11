@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+/* --- */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* --- */
+
+#container {
+  height: 100vh;
+
+  padding-left: 20px;
+
+  font-size: 23px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --- */
+
+h1{
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
+
+/* --- */
+
+mark{
+  border: solid 3px blue;
+  background-color: lightblue;
+}
+
+/* --- */
+
+em{
+  font-style: normal;
+  color: crimson;
+}
